@@ -1,14 +1,15 @@
 const CACHE_NAME = 'file-flip-cache-v1';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/css/styles.css',
-  '/js/app.js',
-  '/icons/icon-192x192.png',
-  '/icons/icon-512x512.png',
-  '/img/background-pattern.svg',
-  '/manifest.json'
+  '/file-flip/',
+  '/file-flip/index.html',
+  '/file-flip/css/styles.css',
+  '/file-flip/js/app.js',
+  '/file-flip/icons/icon-192x192.png',
+  '/file-flip/icons/icon-512x512.png',
+  '/file-flip/img/background-pattern.svg',
+  '/file-flip/manifest.json'
 ];
+
 
 // Install event - cache assets
 self.addEventListener('install', event => {
