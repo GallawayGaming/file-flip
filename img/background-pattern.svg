@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2196f3" stroke-width="0.5" stroke-opacity="0.05"/>
+    </pattern>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#2196f3" fill-opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="white"/>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+  <rect width="100%" height="100%" fill="url(#dots)"/>
+  
+  <!-- Background shapes -->
+  <circle cx="150" cy="450" r="100" fill="#2196f3" fill-opacity="0.03"/>
+  <circle cx="650" cy="150" r="80" fill="#2196f3" fill-opacity="0.03"/>
+  <circle cx="400" cy="300" r="150" fill="#2196f3" fill-opacity="0.02"/>
+  
+  <path d="M20,20 L60,60 L20,100 Z" fill="#2196f3" fill-opacity="0.05" transform="rotate(45, 400, 300)"/>
+  <path d="M700,500 L760,560 L700,620 Z" fill="#2196f3" fill-opacity="0.05"/>
+  
+  <g opacity="0.03">
+    <!-- File icon 1 -->
+    <path d="M100,200 h40 v60 h-40 z" fill="#2196f3"/>
+    <path d="M100,200 h30 l10,10 v50 h-40 z" fill="#2196f3"/>
+    <path d="M130,200 v10 h10 z" fill="#2196f3"/>
+    
+    <!-- File icon 2 -->
+    <path d="M600,350 h40 v60 h-40 z" fill="#2196f3"/>
+    <path d="M600,350 h30 l10,10 v50 h-40 z" fill="#2196f3"/>
+    <path d="M630,350 v10 h10 z" fill="#2196f3"/>
+    
+    <!-- Arrow icons -->
+    <path d="M350,150 h100 l-15,-15 l5,-5 l25,25 l-25,25 l-5,-5 l15,-15 h-100 z" fill="#2196f3"/>
+    <path d="M350,450 h100 l-15,-15 l5,-5 l25,25 l-25,25 l-5,-5 l15,-15 h-100 z" fill="#2196f3"/>
+  </g>
+</svg>
