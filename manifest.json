@@ -2,7 +2,7 @@
   "name": "File Flip",
   "short_name": "File Flip",
   "description": "Convert files between different formats with ease",
-  "start_url": "/index.html",
+"start_url": "/file-flip/index.html",
   "display": "standalone",
   "background_color": "#2196f3",
   "theme_color": "#2196f3",
