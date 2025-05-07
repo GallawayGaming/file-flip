@@ -57,15 +57,22 @@
       "purpose": "any"
     }
   ],
-  "shortcuts": [
-    {
-      "name": "Image Conversion",
-      "short_name": "Images",
-      "description": "Convert between image formats",
-      "url": "/index.html?category=images",
-      "icons": [{ "src": "icons/image-icon.png", "sizes": "96x96" }]
-    },
-    {
+"shortcuts": [
+  {
+    "name": "Image Conversion",
+    "short_name": "Images",
+    "description": "Convert between image formats",
+    "url": "/file-flip/index.html?category=images",
+    "icons": [{ "src": "/file-flip/icons/image-icon.png", "sizes": "96x96" }]
+  },
+  {
+    "name": "Document Conversion",
+    "short_name": "Documents",
+    "description": "Convert between document formats",
+    "url": "/file-flip/index.html?category=documents",
+    "icons": [{ "src": "/file-flip/icons/document-icon.png", "sizes": "96x96" }]
+  }
+]
       "name": "Document Conversion",
       "short_name": "Documents",
       "description": "Convert between document formats",
